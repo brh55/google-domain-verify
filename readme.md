@@ -5,13 +5,13 @@ This is a barebones, no frill server that's sole purpose is to verify domains an
 ## Usage
 1. Go to [Google Webmaster Domain Verification](https://www.google.com/webmasters/verification/home?hl=en&authuser=1)
 2. Download the generated verification html file *(ie: google9d22a3befe5ed022.html)*
-3. Move the verification html file to the `\html` subdirectory
+3. Move the verification html file to the `/html` subdirectory
 4. Run `npm start`
 5. Continue with the domain verification, and you should be set
 
 ### Ngrok Usage
 [Ngrok](http://ngrok.io) subdomains can easily be verified with one additional step.
-1. Run `ngrok http -subdomain=YOURSUBDOMAINHERE 5000` *(assuming the port is the same, otherwise replace with correct port)
+1. Run `ngrok http -subdomain=YOURSUBDOMAINHERE 5000` *(assuming the port is the same, otherwise replace with correct port)*
 
 ### Heroku Usage
 You may want to use heroku as a service for your webhook services, but don't want to necessarily register a domain.
@@ -31,4 +31,3 @@ If you currently have an existing heroku instance running and want to use that s
 3. Continue with usage steps
 4. Return to initial project repository and push the latest branch into heroku after it has been verified.
     `git push heroku YOURLOCALBRANCH:master`
-
