@@ -17,11 +17,13 @@ This is a barebones, no frill server that's sole purpose is to verify domains an
 You may want to use heroku as a service for your webhook services, but don't want to necessarily register a domain.
 
 From a initial state:
+
 1. Clone/Fork Repo
 2. Run `heroku create APPNAME`
 3. Follow usage steps
 
 If you currently have an existing heroku instance running and want to use that subdomain to verify it's url with Google, this can be done with a bit of force pushes. This can be accomplished with a bit of Git wizardary, but make sure to ensure to have the matching heroku commits into your own local branch.
+
 1. Clone repo, and add the heroku remote to your Git remotes
     `git remote add heroku https://git.heroku.com/YOUR-APP.git`
 2. Push branch to your heroku remote
