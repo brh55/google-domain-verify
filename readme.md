@@ -1,6 +1,9 @@
 # google-domain-verify
 
-This is a barebones, no frill server that's sole purpose is to verify domains and subdomain urls within the Google Webmaster Central. The primary use case of this package is to verify subdomain urls such as `your-sub-domain.ngrok.io` to allow a developer to work locally agianst webhook services against their own proxy tunnels.
+> A temporary way to quickly allow a web hook url for your application using Google web hook offerings
+
+This is a barebones, no frill server that's sole purpose is to verify domains and subdomain urls within the [Google Webmaster Central](https://www.google.com/webmasters/verification/verification). The primary use case of this package is to verify subdomain urls such as `your-sub-domain.ngrok.io` to allow a developer to work locally agianst webhook services against their own proxy tunnels.
+
 
 ## Usage
 1. Go to [Google Webmaster Domain Verification](https://www.google.com/webmasters/verification/home?hl=en&authuser=1)
